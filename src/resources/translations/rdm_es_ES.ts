@@ -143,13 +143,14 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../../3rdparty/qredisclient/src/qredisclient/connection.cpp" line="264"/>
-        <location filename="../../../3rdparty/qredisclient/src/qredisclient/connection.cpp" line="293"/>
+        <location filename="../../../3rdparty/qredisclient/src/qredisclient/connection.cpp" line="260"/>
+        <location filename="../../../3rdparty/qredisclient/src/qredisclient/connection.cpp" line="292"/>
         <source>Cannot connect to cluster node %1:%2</source>
         <translation>No se puede conectar al nodo del cluster %1:%2</translation>
     </message>
     <message>
-        <location filename="../../../3rdparty/qredisclient/src/qredisclient/connection.cpp" line="302"/>
+        <location filename="../../../3rdparty/qredisclient/src/qredisclient/connection.cpp" line="303"/>
+        <location filename="../../../3rdparty/qredisclient/src/qredisclient/connection.cpp" line="321"/>
         <source>Cannot flush db (%1): %2</source>
         <translation>No se puede vaciar db (%1): %2</translation>
     </message>
@@ -475,8 +476,8 @@
     </message>
     <message>
         <location filename="../../qml/value-editor/ValueTabs.qml" line="618"/>
-        <source>Search in All values</source>
-        <translation type="unfinished"></translation>
+        <source>Search through All values</source>
+        <translation>Buscar en Todos los valores</translation>
     </message>
     <message>
         <location filename="../../qml/value-editor/ValueTabs.qml" line="714"/>
@@ -814,10 +815,6 @@
         <translation>Ruta a la Clave Privada en formato PEM</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Tip:&lt;/b&gt; Use &lt;code&gt;? + Shift + .&lt;/code&gt; to show hidden files and folders in dialog</source>
-        <translation type="vanished">&lt;b&gt;Consejo:&lt;/b&gt; Usa &lt;code&gt;? + Mayus + .&lt;/code&gt; para mostrar carpetas y ficheros ocultos en el diálogo</translation>
-    </message>
-    <message>
         <location filename="../../qml/ConnectionSettignsDialog.qml" line="344"/>
         <source>Password</source>
         <translation>Contraseña</translation>
@@ -898,24 +895,34 @@
         <translation>Cambiar host en redirección de cluster:</translation>
     </message>
     <message>
-        <location filename="../../qml/ConnectionSettignsDialog.qml" line="500"/>
+        <location filename="../../qml/ConnectionSettignsDialog.qml" line="482"/>
+        <source>TLS</source>
+        <translation>TLS</translation>
+    </message>
+    <message>
+        <location filename="../../qml/ConnectionSettignsDialog.qml" line="486"/>
+        <source>Ignore all SSL/TLS errors (&lt;b&gt;dangerous&lt;/b&gt;):</source>
+        <translation>Ignorar todos los errores SSL/TLS (&lt;b&gt;peligroso&lt;/b&gt;):</translation>
+    </message>
+    <message>
+        <location filename="../../qml/ConnectionSettignsDialog.qml" line="514"/>
         <source>Invalid settings detected!</source>
         <translation>Ajustes inválidos detectados!</translation>
     </message>
     <message>
-        <location filename="../../qml/ConnectionSettignsDialog.qml" line="510"/>
+        <location filename="../../qml/ConnectionSettignsDialog.qml" line="524"/>
         <source>Test Connection</source>
         <translation>Probar Conexión</translation>
     </message>
     <message>
-        <location filename="../../qml/ConnectionSettignsDialog.qml" line="530"/>
+        <location filename="../../qml/ConnectionSettignsDialog.qml" line="544"/>
         <location filename="../../qml/GlobalSettings.qml" line="202"/>
         <location filename="../../qml/QuickStartDialog.qml" line="54"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../qml/ConnectionSettignsDialog.qml" line="542"/>
+        <location filename="../../qml/ConnectionSettignsDialog.qml" line="556"/>
         <location filename="../../qml/value-editor/AddKeyDialog.qml" line="103"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
@@ -940,7 +947,7 @@
         <location filename="../../qml/GlobalSettings.qml" line="81"/>
         <location filename="../../qml/GlobalSettings.qml" line="94"/>
         <source>Application will be restarted to apply this setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>La aplicación se reiniciara para aplicar este ajuste.</translation>
     </message>
     <message>
         <location filename="../../qml/GlobalSettings.qml" line="66"/>
@@ -991,7 +998,7 @@
     <message>
         <location filename="../../qml/GlobalSettings.qml" line="154"/>
         <source>External Value View Formatters</source>
-        <translation type="unfinished"></translation>
+        <translation>Formateadores Externos de Visor de Valores</translation>
     </message>
     <message>
         <source>Custom Value View Formatters</source>
@@ -1355,8 +1362,8 @@
     </message>
     <message>
         <location filename="../../qml/server-info/ServerInfoTabs.qml" line="383"/>
-        <source>Execution Time (μs)</source>
-        <translation>Tiempo de ejecución (μs)</translation>
+        <source>Execution Time (µs)</source>
+        <translation>Tiempo de ejecución (µs)</translation>
     </message>
     <message>
         <location filename="../../qml/server-info/ServerInfoTabs.qml" line="450"/>
@@ -1533,12 +1540,12 @@
     <message>
         <location filename="../../modules/bulk-operations/operations/copyoperation.cpp" line="84"/>
         <source>Cannot connect to source redis-server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>No se puede conectar al servidor origen redis: %1</translation>
     </message>
     <message>
         <location filename="../../modules/bulk-operations/operations/copyoperation.cpp" line="98"/>
         <source>Cannot connect to target redis-server: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>No se puede conectar al servidor destino redis: %1</translation>
     </message>
     <message>
         <location filename="../../modules/bulk-operations/operations/deleteoperation.cpp" line="45"/>
@@ -1572,7 +1579,7 @@
     <message>
         <location filename="../../qml/common/FilePathInput.qml" line="25"/>
         <source>Select File</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar Fichero</translation>
     </message>
 </context>
 <context>

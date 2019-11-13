@@ -41,9 +41,16 @@ Application::Application(int& argc, char** argv)
   processCmdArgs();
   initAppFonts();
   initRedisClient();
+#ifndef RDM_APPSTORE
   initUpdater();
+#endif
   installTranslator();
   initPython();
+}
+
+Application::~Application()
+{
+    m_connections.clear();
 }
 
 void Application::initModels() {
